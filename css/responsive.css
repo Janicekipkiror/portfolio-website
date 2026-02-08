@@ -50,3 +50,9 @@
   }
 }
 
+@media (min-width: 768px) {
+  .contact-links a {
+    font-size: 1rem;
+  }
+}
+
