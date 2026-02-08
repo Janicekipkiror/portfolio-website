@@ -35,15 +35,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-/* ===== SCROLL ANIMATIONS ===== */
-section {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease;
-}
-
-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
