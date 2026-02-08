@@ -39,3 +39,14 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media (min-width: 768px) {
+  .timeline {
+    padding-left: 3rem;
+  }
+
+  .timeline-item {
+    max-width: 600px;
+  }
+}
+
