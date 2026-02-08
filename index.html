@@ -8,6 +8,7 @@
 
   <title>Your Name | Developer Portfolio</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -44,16 +45,79 @@
     </section>
 
     
-    <section id="projects">
-      <h2>Projects</h2>
+   <section id="projects">
+  <h2>Projects</h2>
 
-      <article class="project-card">
-        <h3>Project Title</h3>
-        <p>Short description of what this project does.</p>
-        <a href="#" target="_blank">Live Demo</a>
-      </article>
+  <div class="projects-grid">
 
-    </section>
+    <!-- PROJECT 1 -->
+    <article class="project-card">
+      <img src="images/projects/project1.jpg" alt="Screenshot of Project One">
+
+      <div class="project-content">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          A responsive personal portfolio website built to showcase my
+          skills, projects, and experience.
+        </p>
+
+        <p class="tech-stack">
+          <strong>Tech:</strong> HTML, CSS, JavaScript, GitHub Pages
+        </p>
+
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="project-card">
+      <img src="images/projects/project2.jpg" alt="Screenshot of Project Two">
+
+      <div class="project-content">
+        <h3>Queue Management System</h3>
+        <p>
+          A system that analyzes long queues and identifies extreme waiting
+          times using SQL queries.
+        </p>
+
+        <p class="tech-stack">
+          <strong>Tech:</strong> SQL, Python
+        </p>
+
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project-card">
+      <img src="images/projects/project3.jpg" alt="Screenshot of Project Three">
+
+      <div class="project-content">
+        <h3>Student Management App</h3>
+        <p>
+          A simple application for managing student records with CRUD
+          functionality.
+        </p>
+
+        <p class="tech-stack">
+          <strong>Tech:</strong> JavaScript, HTML, CSS
+        </p>
+
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
 
     
     <section id="experience">
@@ -89,5 +153,6 @@
 
  
   <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
 </body>
 </html>
